@@ -7,10 +7,12 @@
 
   <ItemGroup>
     <None Remove="Scripts\file.ts" />
+    <None Remove="Scripts\file1.ts" />
   </ItemGroup>
 
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\file.ts" />
+    <TypeScriptCompile Include="Scripts\file1.ts" />
   </ItemGroup>
 
 </Project>
