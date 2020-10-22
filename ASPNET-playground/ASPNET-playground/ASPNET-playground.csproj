@@ -5,4 +5,12 @@
     <RootNamespace>ASPNET_playground</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Scripts\file.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="Scripts\file.ts" />
+  </ItemGroup>
+
 </Project>
